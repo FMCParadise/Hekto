@@ -1,0 +1,71 @@
+$black: #000000 !default;
+$white: #FFFFFF;
+$blue: #0D0E43;
+$pink: #FB2E86;
+$gray: #8A8FB9;
+$softPink : #F2F0FF;
+
+$josefin : 'Josefin Sans',
+sans-serif;
+$lato : 'Lato',
+sans-serif;
+
+.navbar-brand {
+    font-family: $josefin;
+    color: $blue;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.no-focus-outline:focus {
+    box-shadow: none;
+}
+
+.navbar-search-icon {
+    background-color: $pink;
+    color: $white;
+    border-radius: 0;
+}
+.form-control {
+    border-radius: 0;
+}
+
+.first-section {
+    background-color: $softPink;
+}
+
+.pink-titles {
+    color: $pink;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-title {
+    font-family: $josefin;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.gray-paragraphs {
+    font-family: $lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: $gray;
+    line-height: 28px;
+}
+
+.shop-btn {
+    background-color: $pink;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    color: $white;
+    font-family: $josefin;
+    font-size: 17px;
+    font-weight: 600;
+}
