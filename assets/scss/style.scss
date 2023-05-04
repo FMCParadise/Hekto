@@ -1,6 +1,6 @@
 $black: #000000 !default;
 $white: #FFFFFF;
-$blue: #0D0E43;
+$blue: #151875;
 $pink: #FB2E86;
 $gray: #8A8FB9;
 $softPink : #F2F0FF;
@@ -9,6 +9,10 @@ $josefin : 'Josefin Sans',
 sans-serif;
 $lato : 'Lato',
 sans-serif;
+
+// * {
+//     background-color: #FFFFFF;
+// }
 
 .navbar-brand {
     font-family: $josefin;
@@ -30,6 +34,7 @@ sans-serif;
     color: $white;
     border-radius: 0;
 }
+
 .form-control {
     border-radius: 0;
 }
@@ -68,4 +73,114 @@ sans-serif;
     font-family: $josefin;
     font-size: 17px;
     font-weight: 600;
+}
+
+.section-titles {
+    font-family: $josefin;
+    font-weight: bold;
+    font-size: 24px;
+    color: $blue;
+}
+
+.card {
+    background-color: #F6F7FB;
+    border: none;
+    border-radius: 0;
+    box-shadow: #00000021 0px 0px 20px 2px;
+}
+
+.card3 {
+    background-color: #F6F7FB;
+    border: none;
+    border-radius: 0;
+    box-shadow: #a7a6a621 0px 0px 50px 2px;
+}
+
+.card-img-top {
+    width: 200px;
+    border-radius: 0;
+}
+
+.card-body {
+    background-color: $white;
+}
+
+.card-title {
+    font-family: $lato;
+    font-weight: bold;
+    font-size: 18px;
+    color: $pink;
+}
+
+.card-color-green {
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #05E6B7;
+}
+
+.card-color-purple {
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #F701A8;
+}
+
+.card-color-blue {
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #00009D;
+}
+
+.card-text {
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 400;
+    color: #151875;
+}
+
+.card-text:last-child {
+    font-family: $lato;
+    font-family: 400;
+}
+
+.card2-title {
+    font-family: $josefin;
+    font-size: 16px;
+    font-weight: 400;
+    color: $blue;
+}
+
+.card2-text {
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 400;
+    color: $blue;
+}
+
+.card2-text strike {
+    font-family: $josefin;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card2-background {
+    height: 16rem;
+    background-color: #F7F7F7;
+}
+
+.card3-title {
+    font-family: $josefin;
+    font-size: 22px;
+    font-weight: 600;
+    color: $blue;
+}
+
+.card3-text {
+    font-family: $lato;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a0b5b45;
+    line-height: 25.6px;
 }

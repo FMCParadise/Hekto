@@ -21,7 +21,8 @@
     <!-- CUSTOM FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Lato:wght@700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lato:wght@400;700&display=swap"
         rel="stylesheet">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="assets/css/style.min.css">
@@ -31,6 +32,7 @@
 <body>
 
     <header class="container-fluid">
+        <!-- NAVBAR -->
         <nav class="row navbar navbar-expand-lg bg-body-transparent p-0">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Hekto</a>
@@ -38,7 +40,6 @@
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <img src="assets/img/burger.svg" alt="">
-
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -77,12 +78,13 @@
 
 
     <main class="container">
+        <!-- SECTION 1 - SECTION PRINCIPALE -->
         <section class="first-section row">
             <img class="col-6 mb-4" src="assets/img/image 32.svg"
                 alt="Image d'un plafonnier moderne de style industriel">
             <article class="row">
                 <h2 class="pink-titles mb-3">Best Furniture For Your Castle....</h2>
-                <h1 class="main-title mb-1">New Furniture Collection Trends un 2020</h1>
+                <h1 class="main-title mb-1">New Furniture Collection Trends in 2020</h1>
                 <p class="gray-paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
                     adipiscing
                     in phasellus non in justo.</p>
@@ -92,31 +94,60 @@
             </article>
         </section>
 
-        <section class="featured-products row text-center">
-            <h2 class="my-2">Featured Products</h2>
-            <div class="card" >
-                <img src="assets/img/image 1168.svg" class="card-img-top" alt="...">
+        <!-- SECTION 2 - FEATURED PRODUCTS (CARDS MODEL 1) -->
+        <section class="featured-products text-center">
+            <h2 class="my-4 section-titles">Featured Products</h2>
+            <div class="card col-10 mx-auto">
+                <img src="assets/img/image 1168.svg" class="card-img-top mx-auto mt-5 mb-3" alt="...">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Cantilever Chair</h5>
-                    <p class="card-text">-- -- --</p>
-                    <p class="card-text">Code - Y523201</p>
+                    <h5 class="card-title mb-0">Cantilever chair</h5>
+                    <p class="card-text mb-0">
+
+                    <div class="card-color-container d-flex gap-1 justify-content-center mt-3">
+                        <div class="card-color-green"></div>
+                        <div class="card-color-purple"></div>
+                        <div class="card-color-blue"></div>
+                    </div>
+
+                    </p>
+                    <p class="card-text mb-2">Code - Y523201</p>
                     <p class="card-text">$42.00</p>
                 </div>
             </div>
         </section>
 
-        <section class="lastest-products row text-center">
-            <h2 class="my-2">Latest Products</h2>
-            <div class="card" >
-                <img src="assets/img/image 1166.svg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Comfort Handy Craft</h5>
-                    <p class="card-text">-- -- --</p>
-                    <p class="card-text">Code - Y523201</p>
-                    <p class="card-text">$42.00</p>
+        <!-- SECTION 3 - LATEST PRODUCTS (CARDS MODEL 2) -->
+        <section class="lastest-products text-center container">
+            <h2 class="mt-5 section-titles">Latest Products</h2>
+
+            <figure class="card2">
+                <div class="card2-background w-100 text-end"><img src="assets/img/image 1166.svg" class="mt-5 mx-4"
+                        alt="..."></div>
+                <div class="d-flex justify-content-between">
+                    <figcaption class="card2-title mt-1">Comfort Handy Craft</figcaption>
+                    <div>
+                        <span class="card2-text mt-1" itemprop="price">$42.00</span>
+                        <span class="card2-text col-2 text-danger mt-1" itemprop="price"><strike>$65.00</strike></span>
+                    </div>
                 </div>
-            </div>
+            </figure>
         </section>
+
+        <!-- SECTION 4 - SERVICE SECTION (CARDS MODEL 3) -->
+        <section class="container mb-5">
+            <h2 class="mt-5 section-titles text-center mb-5">What Shopex Offer !</h2>
+
+            <div class="card3 text-center mx-auto bg-transparent" style="width: 18rem;">
+                <img src="assets/img/truck.svg" class="card-img-top w-25 mx-auto pt-5 pb-4 mt-4" alt="...">
+                <div class="card-body pb-3">
+                    <h5 class="card3-title pb-3">24/7 Support</h5>
+                    <p class="card3-text col-9 mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer>

@@ -1,6 +1,6 @@
 .navbar-brand {
   font-family: "Josefin Sans", sans-serif;
-  color: #0D0E43;
+  color: #151875;
   font-size: 34px;
   font-weight: bold;
 }
@@ -57,4 +57,114 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 17px;
   font-weight: 600;
+}
+
+.section-titles {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #151875;
+}
+
+.card {
+  background-color: #F6F7FB;
+  border: none;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.1294117647) 0px 0px 20px 2px;
+}
+
+.card3 {
+  background-color: #F6F7FB;
+  border: none;
+  border-radius: 0;
+  box-shadow: rgba(167, 166, 166, 0.1294117647) 0px 0px 50px 2px;
+}
+
+.card-img-top {
+  width: 200px;
+  border-radius: 0;
+}
+
+.card-body {
+  background-color: #FFFFFF;
+}
+
+.card-title {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FB2E86;
+}
+
+.card-color-green {
+  width: 14px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #05E6B7;
+}
+
+.card-color-purple {
+  width: 14px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #F701A8;
+}
+
+.card-color-blue {
+  width: 14px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #00009D;
+}
+
+.card-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #151875;
+}
+
+.card-text:last-child {
+  font-family: "Lato", sans-serif;
+  font-family: 400;
+}
+
+.card2-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #151875;
+}
+
+.card2-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #151875;
+}
+
+.card2-text strike {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card2-background {
+  height: 16rem;
+  background-color: #F7F7F7;
+}
+
+.card3-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #151875;
+}
+
+.card3-text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(26, 11, 91, 0.2705882353);
+  line-height: 25.6px;
 }/*# sourceMappingURL=style.css.map */
