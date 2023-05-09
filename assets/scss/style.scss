@@ -39,7 +39,7 @@ sans-serif;
     border-radius: 0;
 }
 
-.first-section {
+.first-section, .section-5 {
     background-color: $softPink;
 }
 
@@ -184,3 +184,77 @@ sans-serif;
     color: #1a0b5b45;
     line-height: 25.6px;
 }
+
+.gray-text-2 {
+    font-family: $lato;
+    font-size: 13px;
+    color: #ACABC3;
+    font-weight: 500;
+}
+
+.dot-color-green {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #05E6B7;
+}
+
+.dot-color-purple {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #F701A8;
+}
+
+.dot-color-blue {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #00009D;
+}
+
+.trending-item-title {
+    font-family: $josefin;
+    font-size: 15px;
+    font-weight: 600;
+    color: $blue;
+}
+
+.trending-price {
+    font-family: $lato;
+    font-size: 15px;
+    font-weight: 400;
+    color: $blue;
+}
+
+.card4 {
+    box-shadow: #a7a6a621 0px 0px 50px 2px;
+}
+
+.card4-title {
+    font-family: $lato;
+    font-size: 17px;
+    font-weight: 700;
+    color: $blue;
+}
+
+.card4-text {
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 400;
+    color: $blue;
+}
+
+.card4-old-price {
+    font-family: $josefin;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.discount-section {
+    background-color: #FFF6FB;
+}
+
