@@ -4,15 +4,17 @@ $blue: #151875;
 $pink: #FB2E86;
 $gray: #8A8FB9;
 $softPink : #F2F0FF;
+$softGray : #B7BACB;
+
 
 $josefin : 'Josefin Sans',
 sans-serif;
 $lato : 'Lato',
 sans-serif;
 
-// * {
-//     background-color: #FFFFFF;
-// }
+* {
+    list-style-type: none;
+}
 
 .navbar-brand {
     font-family: $josefin;
@@ -256,5 +258,92 @@ sans-serif;
 
 .discount-section {
     background-color: #FFF6FB;
+}
+
+.price-off-title {
+    font-family: $josefin;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.shop-link {
+    text-decoration: none;
+    font-family: $lato;
+    font-weight: 600;
+    font-size: 16px;
+    color: $pink;
+    border-bottom: 1px solid $pink;
+}
+
+.pink-diamond {
+    width: 10px;
+    height: 10px;
+    border: 1px solid $pink;
+    transform: rotate(45deg);
+}
+
+.active-diamond {
+    background-color: $pink;
+}
+
+.chair-links {
+    text-decoration: none;
+    font-family: $lato;
+    font-weight: 400;
+    font-size: 14px;
+    color: $blue;
+}
+
+.active-chair-link {
+    color: $pink;
+    border-bottom: 1px solid $pink;
+}
+
+.discount-chair-title {
+    font-family: $josefin;
+    font-size: 21px;
+    font-weight: 400;
+    color: $pink;
+}
+
+.discount-chair-text {
+    font-family: $lato;
+    font-size: 17px;
+    font-weight: 400;
+    color: $softGray;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.discount-chair-list {
+    font-family: $lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: $softGray;
+    letter-spacing: 0.05em;
+
+}
+
+.pink-dots {
+    width: 10px;
+    height: 10px;
+    border: 1px solid $pink;
+    border-radius: 50%;
+}
+
+.top-category-title {
+    font-family: $josefin;
+    font-size: 42px;
+    font-weight: 700;
+    color: $blue;
+}
+
+.img-banner-title {
+    // background-color: red;
+    font-family: $josefin;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: $blue;
 }
 
