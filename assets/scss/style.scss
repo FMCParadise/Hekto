@@ -16,6 +16,21 @@ sans-serif;
     list-style-type: none;
 }
 
+.top-navbar {
+    background-color: #7E33E0;
+}
+
+.top-navbar .nav-link {
+    text-decoration: none !important;
+    color: $white !important;
+}
+
+.email-link a {
+    font-size: 15px;
+    text-decoration: none !important;
+    color: $white !important;
+}
+
 .navbar-brand {
     font-family: $josefin;
     color: $blue;
@@ -41,7 +56,8 @@ sans-serif;
     border-radius: 0;
 }
 
-.first-section, .section-5 {
+.first-section,
+.section-5 {
     background-color: $softPink;
 }
 
@@ -84,11 +100,24 @@ sans-serif;
     color: $blue;
 }
 
+.fixed-card-size {
+    height: 420px;
+}
+
+.fixed-img-size {
+    height: 223px;
+}
+
 .card {
     background-color: #F6F7FB;
     border: none;
     border-radius: 0;
     box-shadow: #00000021 0px 0px 20px 2px;
+}
+
+.next-card-partial {
+    margin-left: -150px;
+    /* Ajustez cette valeur selon vos besoins */
 }
 
 .card3 {
@@ -145,6 +174,19 @@ sans-serif;
 .card-text:last-child {
     font-family: $lato;
     font-family: 400;
+}
+
+.active-card {
+    div {
+        .card-body {
+            background-color: #2F1AC4;
+
+            h5,
+            p {
+                color: $white;
+            }
+        }
+    }
 }
 
 .card2-title {
@@ -339,7 +381,6 @@ sans-serif;
 }
 
 .img-banner-title {
-    // background-color: red;
     font-family: $josefin;
     font-size: 16px;
     line-height: 1.5em;
@@ -347,3 +388,60 @@ sans-serif;
     color: $blue;
 }
 
+.blog-cards h5 {
+    font-family: $josefin;
+    font-size: 18px;
+    font-weight: 700;
+    color: $blue;
+}
+
+.blog-cards a {
+    text-decoration: none;
+    font-family: $lato;
+    font-weight: 400;
+    font-size: 16px;
+    color: $blue;
+    border-bottom: 1px solid $blue;
+}
+
+footer {
+    background-color: #EEEFFB;
+    text-decoration: none;
+}
+
+.footer-title {
+    font-family: $josefin;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+footer section ul li a {
+    text-decoration: none;
+    color: $gray;
+}
+
+.signup-bar::placeholder {
+    background-color: $white;
+    color: $gray;
+    font-family: $lato;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.contact-title {
+    color: $pink;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.address {
+    font-family: $josefin;
+    font-weight: 600;
+}
+
+.footer-cat-titles {
+    font-family: $josefin;
+    font-weight: 600;
+}

@@ -2,6 +2,21 @@
   list-style-type: none;
 }
 
+.top-navbar {
+  background-color: #7E33E0;
+}
+
+.top-navbar .nav-link {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+
+.email-link a {
+  font-size: 15px;
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+
 .navbar-brand {
   font-family: "Josefin Sans", sans-serif;
   color: #151875;
@@ -27,7 +42,8 @@
   border-radius: 0;
 }
 
-.first-section, .section-5 {
+.first-section,
+.section-5 {
   background-color: #F2F0FF;
 }
 
@@ -70,11 +86,24 @@
   color: #151875;
 }
 
+.fixed-card-size {
+  height: 420px;
+}
+
+.fixed-img-size {
+  height: 223px;
+}
+
 .card {
   background-color: #F6F7FB;
   border: none;
   border-radius: 0;
   box-shadow: rgba(0, 0, 0, 0.1294117647) 0px 0px 20px 2px;
+}
+
+.next-card-partial {
+  margin-left: -150px;
+  /* Ajustez cette valeur selon vos besoins */
 }
 
 .card3 {
@@ -131,6 +160,14 @@
 .card-text:last-child {
   font-family: "Lato", sans-serif;
   font-family: 400;
+}
+
+.active-card div .card-body {
+  background-color: #2F1AC4;
+}
+.active-card div .card-body h5,
+.active-card div .card-body p {
+  color: #FFFFFF;
 }
 
 .card2-title {
@@ -329,4 +366,71 @@
   line-height: 1.5em;
   font-weight: 700;
   color: #151875;
+}
+
+.blog-cards h5 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #151875;
+}
+
+.blog-cards a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #151875;
+  border-bottom: 1px solid #151875;
+}
+
+footer {
+  background-color: #EEEFFB;
+  text-decoration: none;
+}
+
+.footer-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+footer section ul li a {
+  text-decoration: none;
+  color: #8A8FB9;
+}
+
+.signup-bar::-moz-placeholder {
+  background-color: #FFFFFF;
+  color: #8A8FB9;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.signup-bar::placeholder {
+  background-color: #FFFFFF;
+  color: #8A8FB9;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.contact-title {
+  color: #FB2E86;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.address {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
+.footer-cat-titles {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
